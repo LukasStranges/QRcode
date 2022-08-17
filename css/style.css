@@ -19,6 +19,7 @@ body{
 }
 
 h3{
+  width: auto;
   font-weight: bold;
   text-align: center;
   font-size: 1.2em;
@@ -29,5 +30,36 @@ p{
   opacity: 0.4;
   padding: 0 10px;
   text-align: center;
+  width: auto;
+}
+.link{
+  position: absolute;
+  bottom: 50px;
+  opacity: 0;
+}
+@media (max-width: 576px){
+      #conteiner{
+        width: 95%;
+      }   
+}
+@media (min-width: 224px){
+      #conteiner{
+        width: 50%;
+      }
+}
+@media (min-width: 640px){
+  #conteiner{
+    width: 35%;
+  }
+}
+@media (min-width: 940px){
+  #conteiner{
+    width: 20%
+  }
+}
+@media (min-width: 1100px){
+  #conteiner{
+    width: 16%;
+  }
 }
 
