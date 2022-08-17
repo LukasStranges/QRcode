@@ -32,11 +32,6 @@ p{
   text-align: center;
   width: auto;
 }
-.link{
-  position: absolute;
-  bottom: 50px;
-  opacity: 0;
-}
 @media (max-width: 576px){
       #conteiner{
         width: 95%;
